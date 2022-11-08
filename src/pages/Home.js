@@ -15,8 +15,10 @@ export const Home = () => {
   useEffect(() => {
     
     getPokemons(qtdPokemons)
-
+    
+// eslint-disable-next-line
   },[qtdPokemons])
+
 
   const getPokemons = qtdPokemons => {
     let endpoints = [];
