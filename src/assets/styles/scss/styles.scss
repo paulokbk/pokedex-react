@@ -1,0 +1,15 @@
+@import '../../../components/Navbar/Navbar.scss';
+@import '../../../components/PokeCard/PokeCard.scss';
+@import '../../../components/Hability/Hability.scss';
+@import '../../../components/Loading/Loading.scss';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap';
+
+
+//Global styles
+* {
+  box-sizing: border-box;
+}
+
+html{
+  background-color: rgba(236, 236, 236, 0.597);
+}
